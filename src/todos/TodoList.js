@@ -6,7 +6,7 @@ import {
   useUpdateTodoMutation,
   useDeleteTodoMutation,
   useAddTodoMutation,
-} from '../services/api';
+} from './todosSlice';
 
 function TodoList() {
   const [newTodo, setNewTodo] = useState('');
